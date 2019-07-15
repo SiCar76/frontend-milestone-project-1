@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap:100,200,300,400,500,600,700,800|Exo: 100,200,300,400,500,600,700,800");
+
+
+/*------------------COLOURS----------------*/
+ 
+
+
+/*------------------HEADER----------------*/
+
+
+.main-header {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+/* The navbar */
+.header-nav {
+  background-color: #000000;
+  position:relative;
+  left:350px;
+  top:190px;
+
+}
+
+/* Navbar links */
+.header-nav a {
+  font-family:"Black Ops One",sans-serif;;  
+  float: right;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.header-nav a:hover {
+  background-color: #ddd;
+  color: red;
+}
+
+/*  Socail Med links */
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: red;
+    background: black;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: grey;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #55ACEE;
+  color: white;
+}
+
+
+/*------------------SECTION----------------*/
+
+
+
+
+/*------------------IMAGES----------------*/
+
+.logo{
+    background: url("../images/por_logo.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:280px;
+    position: relative;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}   
+    
+       
+ 
+.bandlogo{
+    background: url("../images/por_bandpic_1.jpg");
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:260px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.heading-text{
+    font-family: "Black Ops One",sans-serif;
+    color:#ffffff;
+    margin-top:20px;
+    margin-left:20px;
+    font-weight:100;
+  }
+
+
+
+
+  
+
+
+
+
+
+
+
+/*------------------FOOTER----------------*/
