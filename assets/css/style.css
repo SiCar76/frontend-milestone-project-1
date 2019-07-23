@@ -17,9 +17,9 @@
 /* The navbar */
 .header-nav {
   background-color: #000000;
-  position:relative;
-  left:350px;
-  top:190px;
+  position:center;
+  left:330px;
+  top:150px;
 
 }
 
@@ -27,32 +27,49 @@
 .header-nav a {
   font-family:"Black Ops One",sans-serif;;  
   float: right;
-  color: red;
+  color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 2px 22px;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 32px;
 }
 
 .header-nav a:hover {
-  background-color: #ddd;
-  color: red;
+   color:red;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
+
 
 /*  Socail Med links */
 .social-links {
-    padding-bottom: 15px;
+  padding: 15px 25px 15px ;
+    
+   
 }
 
+.heading-text{
+    font-family: "Black Ops One", sans-serif;
+    color:red;
+    margin-top:20px;
+    margin-left:20px;
+    font-size: 32px;
+    font-weight:100;
+    text-shadow: 2px 2px white;
+  }
+
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    padding: 12px 0px;
     border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
+    font-size: 28px;
+    line-height: 17px;
     text-align: center;
-    color: red;
+    color: white;
     background: black;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -61,7 +78,8 @@
 }
 
 .social-links li a i:hover {
-    background: grey;
+    color:red;
+    background: white;
 }
 
 
@@ -83,6 +101,122 @@
 
 
 /*------------------SECTION----------------*/
+
+ .review{
+  position: relative;
+  left: 0;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  font-size: 48px;
+}
+
+
+  .row-bios{
+  margin-left: 20px;
+    margin-right:20px;
+    padding-left:20px;
+    padding-right:20px;
+  }
+
+
+h1{
+    font-family: "Black Ops One", sans-serif;
+    color:white;
+    font-size: 32px;
+    font-weight:100;
+    text-shadow: 2px 2px red;
+    padding-left: 30px;
+    
+   }
+
+h2{
+  font-family: "Black Ops One", sans-serif;
+    color:white;
+    font-size: 28px;
+    font-weight:100;
+    text-shadow: 2px 2px red;
+    }
+    
+h3{
+  font-family: "Black Ops One", sans-serif;
+    color:white;
+    font-size: 25px;
+    font-weight:100;
+    text-shadow: 2px 2px red;
+    }
+
+span{
+  color:white;
+  text-shadow: 3px 3px red;
+}
+
+p{
+  font-family: "Exo", sans-serif;
+  font-size:22px;
+  color:white;
+  text-shadow: 1px 1px red;
+  text-align: center;
+  
+  }
+  
+  hr { 
+  display: block;
+  color:white;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+img{
+  box-shadow: 6px 6px 6px #aaa;
+  }
+  
+.biotext{
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  
+}
+
+   .tour-pos{
+  display:inline-block;
+  }
+  
+
+
+  .day{
+    background-color:grey;
+    width:250px;
+    left:30px;
+  }
+  
+  .date{
+    background-color:red;
+    width:250px;
+    display:static;
+    
+  }
+  
+  .venue{
+    background-color:grey;
+    width:450px;
+   
+  }
+  
+  .tickets{
+    background-color:grey;
+    width:150px;
+    
+  }
+ 
+  
+  
+  
+
 
 
 
@@ -114,14 +248,144 @@
     -webkit-transition: all .5s ease-in-out;
 }
 
-.heading-text{
-    font-family: "Black Ops One",sans-serif;
-    color:#ffffff;
-    margin-top:20px;
-    margin-left:20px;
-    font-weight:100;
+ .chuckd{
+    background: url("../images/chuck_d.jpg");
+    background-position:left;
+    background-repeat: no-repeat;
+    min-height:280px;
+    padding-top: 200px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    
+ } 
+ 
+ .band-bios{
+  height: 100vh;
+    background: url('../images/revolution.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
   }
+  
+   .reviews {
+    height: 100vh;
+    background: url('../images/por_live.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 
+.tour{
+    height: 100vh;
+    background: url('../images/halfpennybridge.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.media{
+  height: 100vh;
+    background: url('../images/riots.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  
+  
+}
+
+
+.tour-table{
+  position:relative;
+  left:80px;
+  bottom:60px;
+  width:80%;
+}
+
+.media-table{
+  position:relative;
+  left:80px;
+  bottom:20px;
+  width:80%;
+}
+
+
+
+
+
+tr{
+   font-family: "Black Ops One", sans-serif;
+    color:white;
+    font-size: 32px;
+    font-weight:100;
+    text-shadow: 2px 2px red;
+ }
+ 
+ td {
+  height: 80px;
+  vertical-align: middle;
+  padding:10px;
+}
+ 
+ .tick-butt{
+   background-color: grey;
+   font-size: 25px;
+ }
+ 
+ .sold-out-butt{
+   background-color: red;
+   }
+   
+  .sold-out-text{
+     text-decoration: line-through;
+       }
+       
+  .new-date{
+    font-size:25px;
+    color:black;
+    padding:4px;
+    background-color: yellow;
+    
+  }
+  
+  ul{
+    list-style:none;
+  }
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  
 
 
 
@@ -134,3 +398,49 @@
 
 
 /*------------------FOOTER----------------*/
+
+footer {
+    background-color: black;
+    color:white;
+    min-height: 120px;
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.footer-headings {
+    font-family: "Black Ops One", sans-serif;
+    font-weight: 300;
+    color: white;
+    padding-top: 20px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.footer-links li a :hover {
+    color:red;
+    background: white;
+}
+
+.sign-up-butt{
+  padding: 20px 0px 0px 20px;
+  
+}
+
+
+
+
