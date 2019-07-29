@@ -2,30 +2,40 @@
 
 
 /*------------------COLOURS----------------*/
- 
-
 
 /*------------------HEADER----------------*/
 
-
-.main-header {
-  position: absolute;
-  margin: 20px;
-  width: auto;
-}
-
-/* The navbar */
 .header-nav {
-  background-color: #000000;
-  position:center;
-  left:330px;
-  top:150px;
-
+  position: absolute;
+  top: 20px;
+  left: 30px;
 }
+  
+  td{
+    width:600px;
+  }
+  
+  tr{
+    height:250px;
+    
+    
+  }
+  
+  .pic-row{
+    width:300px;
+
+  }
+
+.bio-row{
+  position:left;
+}
+
+
 
 /* Navbar links */
+
 .header-nav a {
-  font-family:"Black Ops One",sans-serif;;  
+  font-family: "Black Ops One", sans-serif;
   float: right;
   color: #FFFFF0;
   text-align: center;
@@ -35,62 +45,63 @@
 }
 
 .header-nav a:hover {
-   color:#ff3333;
-    transition: all 0.35s ease-in-out;
-    opacity: 0.7;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+  color: #ff3333;
+  transition: all 0.35s ease-in-out;
+  opacity: 0.7;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
 
 /*  Socail Med links */
+
 .social-links {
-  padding: 15px 25px 15px ;
-    
-   
+  padding: 15px 25px 15px;
+
+
 }
 
-.heading-text-pos{
-  position:absolute;
-  top:140px;
-  width:auto;
-  
-  
-  
+.heading-text-pos {
+  position: absolute;
+  top: 140px;
+  width: auto;
+
+
+
 }
 
-.heading-text{
-    font-family: "Black Ops One", sans-serif;
-    color:#ff3333;
-    font-size: 62px;
-    font-weight:100;
-    text-shadow: 2px 2px #FFFFF0;
-  }
+.heading-text {
+  font-family: "Black Ops One", sans-serif;
+  color: #ff3333;
+  font-size: 62px;
+  font-weight: 100;
+  text-shadow: 2px 2px #FFFFF0;
+}
 
 .social-links li a i {
-    width: 50px;
-    height: 50px;
-    position: relative;
-    left:430px;
-    top:200px;
-    padding: 12px 0px;
-    border-radius: 50%;
-    font-size: 30px;
-    line-height: 20px;
-    text-align: center;
-    color: black;
-    background: #FFFFF0;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 430px;
+  top: 200px;
+  padding: 12px 0px;
+  border-radius: 50%;
+  font-size: 30px;
+  line-height: 20px;
+  text-align: center;
+  color: black;
+  background: #FFFFF0;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
-    color:red;
-    background: white;
-    opacity: 0.7;
+  color: red;
+  background: white;
+  opacity: 0.7;
 }
 
 
@@ -113,120 +124,145 @@
 
 /*------------------SECTION----------------*/
 
- .review{
+.review {
+  display: flex;
+  flex-direction: column;
   position: relative;
-  left: 0;
-  top: 10%;
-  width: 100%;
   text-align: center;
-  font-size: 48px;
+  margin-top: 8px;
+  margin-bottom:10px;
+}
+
+.review-syn {
+  font-family: "Exo", sans-serif;
+  font-size: 24px;
+  color: white;
+  text-shadow: 1px 1px red;
+  text-align: center;
+}
+
+.review-mag {
+  font-family: "Black Ops One", sans-serif;
+  color: white;
+  font-size: 32px;
+  font-weight: 100;
+  text-shadow: 2px 2px red;
+  padding-left: 30px;
 }
 
 
-  .row-bios{
+.row-bios {
   margin-left: 20px;
-    margin-right:20px;
-    padding-left:20px;
-    padding-right:20px;
-  }
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.rating {
+  font-size: 32px;
+  margin-left: 25px;
+}
+
+.margin{
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.band-syn{
+  font-family: "Exo", sans-serif;
+  font-size: 18px;
+  color: white;
+  text-shadow: 1px 1px red;
+  text-align: center;
+}
+  
+  
+  
+  
+  
+}
 
 
-h1{
-    font-family: "Black Ops One", sans-serif;
-    color:white;
-    font-size: 32px;
-    font-weight:100;
-    text-shadow: 2px 2px red;
-    padding-left: 30px;
-    
-   }
+h1 {}
 
-h2{
+h2 {
   font-family: "Black Ops One", sans-serif;
-    color:white;
-    font-size: 28px;
-    font-weight:100;
-    text-shadow: 2px 2px red;
-    }
-    
-h3{
-  font-family: "Black Ops One", sans-serif;
-    color:white;
-    font-size: 25px;
-    font-weight:100;
-    text-shadow: 2px 2px red;
-    }
+  color: white;
+  font-size: 28px;
+  font-weight: 100;
+  text-shadow: 2px 2px red;
+}
 
-span{
-  color:white;
+h3 {
+  font-family: "Black Ops One", sans-serif;
+  color: white;
+  font-size: 25px;
+  font-weight: 100;
+  text-shadow: 2px 2px red;
+}
+
+span {
+  color: white;
   text-shadow: 3px 3px red;
 }
 
-p{
-  font-family: "Exo", sans-serif;
-  font-size:22px;
-  color:white;
-  text-shadow: 1px 1px red;
+p {}
+
+hr {
+  height: 1px;
+  border: none;
+  color: white;
+  background-color: white;
+  width: 60%;
   text-align: center;
-  
-  }
-  
-  hr { 
-  display: block;
-  color:white;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
+  margin-top: 20px;
 }
 
-img{
+img {
   box-shadow: 6px 6px 6px #aaa;
-  }
-  
-.biotext{
+}
+
+.biotext {
   padding-left: 20px;
   padding-right: 20px;
-  
-  
+
+
 }
 
-   .tour-pos{
-  display:inline-block;
-  }
-  
+.tour-pos {
+  display: inline-block;
+}
 
 
-  .day{
-    background-color:grey;
-    width:250px;
-    left:30px;
-  }
-  
-  .date{
-    background-color:red;
-    width:250px;
-    display:static;
-    
-  }
-  
-  .venue{
-    background-color:grey;
-    width:450px;
-   
-  }
-  
-  .tickets{
-    background-color:grey;
-    width:150px;
-    
-  }
- 
-  
-  
-  
+
+.day {
+  background-color: grey;
+  width: 250px;
+  left: 30px;
+}
+
+.date {
+  background-color: red;
+  width: 250px;
+  display: static;
+
+}
+
+.venue {
+  background-color: grey;
+  width: 450px;
+
+}
+
+.tickets {
+  background-color: grey;
+  width: 150px;
+
+}
+
+
+
+
 
 
 
@@ -234,177 +270,228 @@ img{
 
 /*------------------IMAGES----------------*/
 
-.logo{
-    background: url("../images/por_logo.jpg");
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height:280px;
-    position: relative;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}   
-    
-       
- 
-.bandlogo{
-    background: url("../images/por_bandpic_1.jpg");
-    background-position:top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height:260px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+.por-logo {
+  background: url("../images/por_logo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 280px;
+  position: relative;
+  transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
 }
 
- .chuckd{
-    background: url("../images/chuck_d.jpg");
-    background-position:left;
-    background-repeat: no-repeat;
-    min-height:280px;
-    padding-top: 200px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    
- } 
- 
- .band-bios{
+
+
+.band-pic {
+  background: url("../images/por_bandpic_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 260px;
+  transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+}
+
+.chuckd {
+  background: url("../images/chuck_d.jpg");
+  background-position: left;
+  float:left;
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 280px;
+  margin-left: 70px;
+  margin-right: 50px;
+  transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+
+}
+
+.morello {
+  background: url("../images/morello.jpg");
+  background-position: left;
+  float:left;
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 280px;
+  margin-left: 70px;
+  transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+
+}
+
+.breal{
+  background: url("../images/breal.jpg");
+  background-position: left;
+  float:left;
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 280px;
+  margin-left: 70px;
+  margin-bottom: 50px;
+  transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+
+}
+
+
+
+
+
+
+.band-bios {
   height: 100vh;
-    background: url('../images/revolution.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+  background: url('../images/revolution.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-  }
-  
-   
-
-
-.tour{
-    height: 100vh;
-    background: url('../images/halfpennybridge.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.media{
-  height: 100vh;
-    background: url('../images/riots.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-  
-  
-}
-
-.reviews {
-    height: 100vh;
-    background: url('../images/por_live.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    opacity: 0.8;
-    filter: alpha(opacity=50);
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.tour-table{
-  position:relative;
-  left:80px;
-  bottom:60px;
-  width:80%;
-}
-
-.media-table{
-  position:relative;
-  left:80px;
-  bottom:20px;
-  width:80%;
-}
-
-
-
-
-
-tr{
-   font-family: "Black Ops One", sans-serif;
-   height:200px;
-    color:white;
-    font-size: 32px;
-    font-weight:100;
-    text-shadow: 2px 2px red;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 10px;
  }
- 
- td {
+
+.band-member{
+  font-family: "Black Ops One", sans-serif;
+  height: 100px;
+  width:100%;
+  color: white;
+  font-size: 32px;
+  font-weight: 100;
+  text-shadow: 2px 2px red;
+  border-bottom: 1px solid ;
+}
+
+
+
+
+
+.tour {
+  height: 100vh;
+  background: url('../images/halfpennybridge.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.media {
+  height: 100vh;
+  background: url('../images/riots.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+
+}
+
+.reviews-pic {
+  height: 100vh;
+  background: url('../images/por_live.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  opacity: 0.8;
+  filter: alpha(opacity=50);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.tour-table {
+  position: relative;
+  left: 80px;
+  bottom: 60px;
+  width: 80%;
+}
+
+.media-table {
+  position: relative;
+  left: 80px;
+  bottom: 20px;
+  width: 80%;
+}
+
+.footer-icon {}
+
+
+
+.table-tour-row {
+  font-family: "Black Ops One", sans-serif;
+  height: 100px;
+  width:100%;
+  color: white;
+  font-size: 32px;
+  font-weight: 100;
+  text-shadow: 2px 2px red;
+  border-bottom: 1px solid ;
+}
+
+.table-tour-data {
   height: 80px;
-  width:300px;
+  width: 400px;
   vertical-align: middle;
-  padding:10px;
+  padding: 10px;
 }
- 
- .tick-butt{
-   background-color: grey;
-   font-size: 25px;
- }
- 
- .sold-out-butt{
-   background-color: red;
-   }
-   
-  .sold-out-text{
-     text-decoration: line-through;
-       }
-       
-  .new-date{
-    font-size:25px;
-    color:black;
-    padding:4px;
-    background-color: yellow;
-    
-  }
-  
-  ul{
-    list-style:none;
-  }
-  
-  
 
+.tick-butt {
+  background-color: grey;
+  font-size: 25px;
+}
 
-  
+.sold-out-butt {
+  background-color: red;
+}
 
-  
-  
-  
-  
-  
-  
-  
+.sold-out-text {
+  text-decoration: line-through;
+}
+
+.new-date {
+  font-size: 25px;
+  color: black;
+  padding: 4px;
+  background-color: yellow;
+
+}
+
+ul {
+  list-style: none;
+}
 
 
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -415,56 +502,52 @@ tr{
 /*------------------FOOTER----------------*/
 
 footer {
-    background-color: black;
-    color:white;
-    min-height: 120px;
-    margin: 0;
+  background-color: black;
+  color: white;
+  min-height: 120px;
+  margin: 0;
 }
 
 .uppercase {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .footer-headings {
-    font-family: "Black Ops One", sans-serif;
-    font-weight: 300;
-    color: white;
-    padding-top: 20px;
+  font-family: "Black Ops One", sans-serif;
+  font-weight: 300;
+  color: white;
+  padding-top: 20px;
 }
 
 .inline-block {
-    display: inline-block;
+  display: inline-block;
 }
 
 .footer-links li a {
-    text-decoration: none;
-    text-align: center;
-    color: white;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
 .footer-links li a :hover {
-    color:red;
-    background: white;
+  color: red;
+  background: white;
 }
 
 .sign-up-text {
-    text-decoration: none;
-    text-align: center;
-    color: white;
+  text-decoration: none;
+  text-align: center;
+  color: white;
 }
 
 
-.sign-up-butt{
-  position:relative;
-  left:22px;
+.sign-up-butt {
+  position: relative;
+  left: 22px;
   padding: 20px 0px 0px 20px;
-  
+
 }
-
-
-
-
